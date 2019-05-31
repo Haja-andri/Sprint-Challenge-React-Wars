@@ -34,7 +34,7 @@ It basically means thinking in term of "State", "Props" and "Components" when in
 
 - [ ] Describe state.
 
-A state is an object provided by React that allow the developper to store and manipulate/mutate the states of the components that compose its UI. Each time a given state is updated/mutated, a "render()" method is automatically called to reflect the changes at the UI level on the screen. Only the components that have changed their states will be re-rendered.
+A state is an object provided by React that allow the developper to store and manipulate/mutate the states of the components that compose its UI. Each time a given state is updated/mutated, a "render()" method is automatically called to reflect the changes at the UI level on the screen. Only the components that have changed their states will be re-rendered .
 
 - [ ] Describe props.
 
