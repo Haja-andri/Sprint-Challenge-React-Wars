@@ -1,8 +1,83 @@
-.App {
+.core {
+  width: 95%;
+  margin: 0 auto;
+}
+h2 {
+  color: white;
+}
+
+.char-desc {
+  background-image: linear-gradient(to right bottom, #FF5454, #FE8A4D, #FDD64D);
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.gen-desc{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gen-desc span{
+  border: 1px solid white;
+  background-color: #1bb05d;
+  width: 25%;
+  padding: 1rem;
+  color: #443e3e;
+}
+
+
+
+.gen-desc span.first{
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.gen-desc span.last{
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.top {
   text-align: center;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+}
+
+@media only screen and (max-width : 600px) {
+  /* Styles pour cette Media Queries */
+  .gen-desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }   
+  .gen-desc span{
+    width: 80%;
+    text-align: center;
+  }
+  .gen-desc span.first{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;    
+  }
+  
+  .gen-desc span.last{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+  }
+  
 }
 /* write your parent styles in here for your App.js */
