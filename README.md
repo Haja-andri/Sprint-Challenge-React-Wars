@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a library initially developed by FaceBook and now given to the open source community. It intends to drastically ease the challenge of developing a (declarative) stateful and reactive UI. Moderne web development is heavily based on advance UI that instantly "react" to user and event stimulus. ReatJS has a specific markup langage called JSX that mixup HTML and Javascript.
+
 - [ ] What does it mean to _think_ in react?
+
+It basically means thinking in term of "State", "Props" and "Components" when in comes to develop complex and reactive UI. 
 
 - [ ] Describe state.
 
+A state is an object provided by React that allow the developper to store and manipulate/mutate the states of the components that compose its UI. Each time a given state is updated/mutated, a "render()" method is automatically called to reflect the changes at the UI level on the screen. Only the components that have changed their states will be re-rendered .
+
 - [ ] Describe props.
+
+Props are the data/information that flow and can be passed from one components to another (parent to child most of the time) so the receiving component can process a given instructions using the propos received.
 
 ## Project Set Up
 
